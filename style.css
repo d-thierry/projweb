@@ -1,13 +1,18 @@
 body{
     margin: 0px;
 }
+header{
+    overflow: hidden;
+    height: 125px;
+}
 nav{
     display: inline-block;
     background-color:#B46E57 ;
     margin-top: 10px;
-    padding-inline: 292px;
+    padding-inline: 296px;
     margin-inline: 0px;
     align-content: center;
+    overflow: hidden;
 }
 .logo{
     display: inline;
@@ -50,5 +55,19 @@ nav a{
     
     color: white;
     text-align: center;
-    padding: 14px 14px;    
+    padding: 7px 10px;    
+}
+footer{
+    background-color:#FABEB1;
+    margin-bottom: 0%;
+    padding-top: 40;
+    padding-bottom: 40;
+}
+.imgFooter{
+    width: 1200px;
+    padding-left: 20px;
+    padding-top: 40;
+}
+.svg1{
+    width: 550px;
 }
