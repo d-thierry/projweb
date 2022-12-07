@@ -1,25 +1,25 @@
 body{
     margin: 0px;
+    float: none;
 }
 header{
     overflow: hidden;
-    height: 125px;
+    height: 100px;
 }
 nav{
     display: inline-block;
     background-color:#B46E57 ;
-    margin-top: 10px;
-    padding-inline: 296px;
+    margin-top: 5px;
+    padding-inline: 304px;
     margin-inline: 0px;
     align-content: center;
     overflow: hidden;
 }
 .logo{
     display: inline;
-    float: left;
     margin-left: 40px;
     margin-top: 20px;
-   
+    height: 70px;
 }
 .nome{
     font-size: 40px;
@@ -35,14 +35,17 @@ nav{
     margin-right: 40px;
     margin-top: 40px;
     display: inline;
+    height: 40px;
 }
 
 nav a:hover{
     background-color: #8f5643;
-    stroke: aliceblue;
+}
+.active{
+    background-color: #8f5643;
 }
 a{
-    padding: 8px;
+    padding-left: 15px;
     height: 35px;
     float: left;
     border-right: 2px solid #bbb;
@@ -55,19 +58,28 @@ nav a{
     
     color: white;
     text-align: center;
-    padding: 7px 10px;    
+    padding: 10px 10px;    
 }
 footer{
     background-color:#FABEB1;
     margin-bottom: 0%;
     padding-top: 40;
-    padding-bottom: 40;
+    padding-bottom: 35;
 }
 .imgFooter{
-    width: 1200px;
-    padding-left: 20px;
-    padding-top: 40;
+    width: 800px;
+    padding-left: 250px;
+    padding-top: 8px;
+
 }
-.svg1{
-    width: 550px;
+.imagem1{
+    height: 280px;
+    padding-left: 250px;
+    margin: 10px;
+}
+.tamanho{
+    width: 150px;
+}
+table{
+    padding-left: 290px;
 }
