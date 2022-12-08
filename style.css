@@ -14,6 +14,7 @@ nav{
     margin-inline: 0px;
     align-content: center;
     overflow: hidden;
+    margin-bottom: 0%;
 }
 .logo{
     display: inline;
@@ -46,10 +47,11 @@ nav a:hover{
 }
 a{
     padding-left: 15px;
-    height: 35px;
+    
     float: left;
     border-right: 2px solid #bbb;
     vertical-align: middle;
+    
  }
  a:last-child{
     border-right: none;
@@ -58,13 +60,16 @@ nav a{
     
     color: white;
     text-align: center;
-    padding: 10px 10px;    
+    padding: 10px 10px; 
+    height: 45px;
+  
+    
 }
 footer{
     background-color:#FABEB1;
     margin-bottom: 0%;
-    padding-top: 40;
-    padding-bottom: 35;
+    padding-top: 5px;
+    padding-bottom: 10px;
 }
 .imgFooter{
     width: 800px;
@@ -82,4 +87,13 @@ footer{
 }
 table{
     padding-left: 290px;
+}
+.carousel{
+    width: 810px;
+  padding: 13px;
+  margin-left: 240px;
+}
+.prof{
+    width: 800px;
+    margin-left: 220px;
 }
